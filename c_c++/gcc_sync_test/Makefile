@@ -1,5 +1,5 @@
 CC=gcc
-CFLAGS= -Wall -O2
+CFLAGS= -Wall
 LIB= -lpthread
 OBJS=gcc_sync_test.o 
 SRCS=${OBJS:%.o=%.c}
